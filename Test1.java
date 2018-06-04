@@ -8,14 +8,14 @@ public class Test1 {
 
 	public static void main(String[] args) throws InterruptedException{
 
-////		//Opening Chrome
-//		System.setProperty("webdriver.chrome.driver",  "E:\\DO NOT DELETE\\chromedriver_win32\\chromedriver.exe");
-//		WebDriver d=new ChromeDriver();
-//		System.out.println("Opening Browser");
-//		d.get("https://www.google.com");
+		//Opening Chrome
+		System.setProperty("webdriver.chrome.driver",  "E:\\DO NOT DELETE\\chromedriver_win32\\chromedriver.exe");
+		WebDriver d=new ChromeDriver();
+		System.out.println("Opening Browser");
+		d.get("https://www.google.com");
 		System.out.println("Waiting for the browser to Open");
 		d.quit();
-	System.out.println("Browser is closed "				+ "");
+		System.out.println("Browser is closed ");
 		
 		//Opening FireFox
 		System.setProperty("webdriver.gecko.driver", "E:\\DO NOT DELETE\\geckodriver-v0.20.1-win64\\geckodriver.exe");
